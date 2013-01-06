@@ -1,0 +1,7 @@
+<h1>Listing Purchase Table Importer</h1>
+<h2>The gross of the items sold in the uploaded file is</h2>
+<h3>Number of Orders:<%= @parsers.count %> </h3>
+<h4>Gross Revenue:<%= parsers_revenue(@parsers) %></h4>
+
+<%= link_to 'Show', @parser %> |
+<%= link_to 'Back', parsers_path %>

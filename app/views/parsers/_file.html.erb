@@ -1,0 +1,7 @@
+<h3>upload a file to parse in.</h3>
+
+	<%= form_tag upload_parsers_path, :multipart => true do %>
+	  <%= file_field :parsers, :file_traveling %>
+	  <%= submit_tag "Upload" %>
+	<% end %>
+	

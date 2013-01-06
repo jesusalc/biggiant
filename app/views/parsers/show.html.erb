@@ -1,0 +1,35 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Purchaser name:</b>
+  <%= @parser.purchaser_name %>
+</p>
+
+<p>
+  <b>Item description:</b>
+  <%= @parser.item_description %>
+</p>
+
+<p>
+  <b>Item price:</b>
+  <%= @parser.item_price %>
+</p>
+
+<p>
+  <b>Purchase count:</b>
+  <%= @parser.purchase_count %>
+</p>
+
+<p>
+  <b>Merchant address:</b>
+  <%= @parser.merchant_address %>
+</p>
+
+<p>
+  <b>Merchant name:</b>
+  <%= @parser.merchant_name %>
+</p>
+
+
+<%= link_to 'Edit', edit_parser_path(@parser) %> |
+<%= link_to 'Back', parsers_path %>
